@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: slicemk
-      url-base: https://github.com/Etrinque/ergodox-zmk-config
+      url-base: https://github.com/Etrinque/slicemk
   projects:
     - name: zmk
       remote: slicemk
