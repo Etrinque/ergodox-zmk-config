@@ -17,14 +17,14 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp TILD   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4   &kp NUMBER_5    &kp CPLK   &kp M_MUTE    &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp M_VOLU
-				&kp ESC    &kp Q        &kp W        &kp E        &kp R          &kp T           &kp BKSP     &kp BKSP    &kp Y        &kp U          &kp I        &kp O        &kp P         &kp M_VOLD
-				&kp TAB    &kp A        &kp S        &kp D        &kp F          &kp G                                    &kp H        &kp J          &kp K        &kp L        &kp SEMICOLON &kp RETURN
-				&kp LSHFT  &kp Z        &kp X        &kp C        &kp V          &kp B           &kp HOME     &kp END     &kp N        &kp M          &kp CMMA     &kp DOT      &kp FSLH      &kp BSLH
-				&kp LCTL   &kp LWIN     &kp LALT     &kp LPRN     &kp RPRN                                                          &kp LARW       &kp DARW     &kp UARW     &kp RARW      &kp RSHFT
-				                                                                &mo LAYER_NMPAD  &kp DEL    &kp INS    &mo LAYER_FN
-				                                                 &kp RETURN     &mo LAYER_SYMB   &kp PGUP   &kp PGDN   &mo LAYER_SYMB     &kp SPC
-				                                                                                 &kp PLUS   &kp EQUAL
+				&kp TILD   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4   &kp NUMBER_5    &kp CPLK    &kp M_MUTE  &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp M_VOLU
+				&kp ESC    &kp Q        &kp W        &kp E        &kp R          &kp T           &kp BKSP    &kp BKSP    &kp Y        &kp U          &kp I        &kp O        &kp P         &kp M_VOLD
+				&kp TAB    &kp A        &kp S        &kp D        &kp F          &kp G                                   &kp H        &kp J          &kp K        &kp L        &kp SEMICOLON &kp RETURN
+				&kp LSHFT  &kp Z        &kp X        &kp C        &kp V          &kp B           &kp HOME    &kp END     &kp N        &kp M          &kp CMMA     &kp DOT      &kp FSLH      &kp BSLH
+				&kp LCTL   &kp LWIN     &kp LALT     &kp LPRN     &kp RPRN                                                            &kp LARW       &kp DARW     &kp UARW     &kp RARW      &kp RSHFT
+				                                                                 &mo LAYER_NMPAD  &kp DEL    &kp INS     &mo LAYER_FN
+				                                                  &kp RETURN     &mo LAYER_SYMB   &kp PGUP   &kp PGDN    &mo LAYER_SYMB     &kp SPC
+				                                                                                  &kp PLUS   &kp EQUAL
 			>;
 		};
 		layer_1 {
