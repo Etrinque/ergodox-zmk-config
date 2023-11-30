@@ -16,13 +16,13 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp TILDE  &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4   &kp NUMBER_5    &kp CPLK    &kp M_MUTE  &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp M_VOLU
-				&kp ESC    &kp Q        &kp W        &kp E        &kp R          &kp T           &kp BKSP    &kp BKSP    &kp Y        &kp U          &kp I        &kp O        &kp P         &kp M_VOLD
+				&kp TILDE  &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4   &kp NUMBER_5    &kp CPLK    &kp C_MUTE  &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp C_VOL_UP
+				&kp ESC    &kp Q        &kp W        &kp E        &kp R          &kp T           &kp BSPC    &kp BSPC    &kp Y        &kp U          &kp I        &kp O        &kp P         &kp C_VOL_DN
 				&kp TAB    &kp A        &kp S        &kp D        &kp F          &kp G                                   &kp H        &kp J          &kp K        &kp L        &kp SEMICOLON &kp RETURN
-				&kp LSHFT  &kp Z        &kp X        &kp C        &kp V          &kp B           &kp HOME    &kp END     &kp N        &kp M          &kp CMMA     &kp DOT      &kp FSLH      &kp BSLH
-				&kp LCTL   &kp LWIN     &kp LALT     &kp LPRN     &kp RPRN                                                            &kp LARW       &kp DARW     &kp UARW     &kp RARW      &kp RSHFT
+				&kp LSHFT  &kp Z        &kp X        &kp C        &kp V          &kp B           &kp HOME    &kp END     &kp N        &kp M          &kp COMMA     &kp DOT      &kp FSLH      &kp BSLH
+				&kp LCTRL   &kp LWIN     &kp LALT     &kp LPAR     &kp RPAR                                                            &kp LEFT       &kp DOWN     &kp UP     &kp RIGHT      &kp RSHFT
 				                                                                 &mo LAYER_NMPAD  &kp DEL    &kp INS     &mo LAYER_FN
-				                                                  &kp SPC     	 &mo LAYER_SYMB   &kp PGUP   &kp PGDN    &mo LAYER_SYMB     &kp SPC
+				                                                  &kp SPACE     	 &mo LAYER_SYMB   &kp PG_UP   &kp PG_DN    &mo LAYER_SYMB     &kp SPACE
 				                                                                                  &kp PLUS   &kp EQUAL
 			>;
 		};
@@ -44,11 +44,11 @@
 				&bootloader
 				&kp ESC &none     &none        &none     &none    &none &none                &none                &none   &none        &none        &none        &none        &none
 				&kp TAB &none     &none        &none     &none    &none &none                &none                &none   &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none        &none
-				&none   &kp SLASH &kp ASTERISK &kp MINUS &kp PLUS &none                                           &none   &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0 &kp BKSP
+				&none   &kp SLASH &kp ASTERISK &kp MINUS &kp PLUS &none                                           &none   &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0 &kp BSPC
 				&none   &none     &none        &none     &kp DOT  &none &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none        &none
-				&none   &none     &none        &kp LARW  &kp UARW                                                         &kp DARW     &kp RARW     &none        &none        &to LAYER_MAIN
+				&none   &none     &none        &kp LEFT  &kp UP                                                         &kp DOWN     &kp RIGHT     &none        &none        &to LAYER_MAIN
 				                                                  &none &none                &none                &none
-				                                         &none    &none &none                &none                &kp SPC &none
+				                                         &none    &none &none                &none                &kp SPACE &none
 				                                                        &kp RET              &none
 			>;
 		};
