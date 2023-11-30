@@ -36,7 +36,7 @@
 				&none 	&none &none    &none       &none                                                                            &none     &none &none &none &to LAYER_MAIN
 				                                                    &none             &none          &none            &none
 				                                   &kp SINGLE_QUOTE &kp DOUBLE_QUOTES &none          &none            &none         &none
-				                                                                      &kp Grave      &none
+				                                                                      &kp GRAVE      &none
 			>;
 		};
 		layer_2 {
